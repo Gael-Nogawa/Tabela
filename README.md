@@ -1,2 +1,3 @@
 # Tabela
-Iniciando uma tabela simples
+Iniciando uma tabela simples;
+Adicionado um tabela;
