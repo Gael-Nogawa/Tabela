@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULÁRIO</title>
+
+    <script>
+
+        function cadastro(){
+
+            var nomeCliente = document.getElementById('nome').value;
+            var endCliente = document.getElementById('endereco').value;
+            var idade = document.getElementById('idade').value;
+            
+
+            if (document.getElementById('masculino').checked){
+                var sexoCliente = 'M';
+            } else {
+                var sexoCliente = 'F';
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Formulário<h1>
+        <p>Developers</p>
+    <font>Nome:</font>
+    <input type="text" id="nome"><br>
+    <font>Endereço: </font>
+    <input type="text" id="endereco"><br>
+    <font>Idade: </font>
+    <input type="text" id="idade"><br>
+    <font>Sexo: </font>
+    <input type="radio" name="sexo" id="masculino" checked="checked">Masculino
+    <input type="radio" name="sexo" id="feminino">feminino<br>
+    <input type="button" name="botao-ok" value="cadastrar" id="botao-cadastra" onclick="casdastro()">
+    
+    
+</body>
+</html>
